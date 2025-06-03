@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Latihan CSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />     (digunakan untuk memanggil css)
+
+<body>
+    <!-- header / navbar -->
+    <header>
+        <h2 class="logo-text" style="font-size: 40px; text-align: start;">☕ kenangan senja</h2>
+        <nav>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">about</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- hero section -->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <div class="hero-image-wrapper; flexdisplay">
+                        <h2 class="title">best coffee</h2>
+                        <img src="images/coffee-hero-section.png" alt="coffee" class="hero-image" height="55px" width="55px">
+                    </div>
+                    <h3 class="subtitle">make your day great with our special coffee!</h3>
+                    <p class="description">welcome to our coffee paradise, where every bean tells a story and every cup sparks joy.</p>
+                </div>
+            </div>
+        </section>
+        <!-- about section -->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-details">
+                    <div class="about-image-wrapper; flexdisplay">
+                        <h2 class="section-title">about us</h2>
+                        <img src="images/about-image.jpg" alt="about" class="about-image" height="60px" width="60px">
+                    </div>
+                    <p class="text">at coffee house in berndorf, germany, we pride ourselves on being a go-to destination for coffee lovers and conversation seekers alike. we're dedicated to providing an exceptional coffee experience in a cozy and inviting atmosphere, where guests can relax, unwind, and enjoy their time in comfort.</p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- menu section -->
+        <section class="menu-section" id="menu">
+            <h2 class="section-title">our menu</h2>
+            <div class="section-content">
+                <ul class="menu-list; flexdisplay">
+                    <li class="menu-item" style="padding: 10px">
+                        <img src="images/hot breakfast.jpeg" alt="hot beverages" class="menu-image" width="200px" height="200px">
+                        <div class="menu-details">
+                            <h3 class="name">hot beverages</h3>
+                            <p class="text">wide range of steaming hot coffee to make you fresh and light.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item" style="padding: 10px; margin-right: 20px;">
+                        <img src="images/cold beverages.jpeg" alt="cold beverages" class="menu-image" width="200px" height="200px">
+                        <div class="menu-details">
+                            <h3 class="name">cold beverages</h3>
+                            <p class="text">creamy and frothy cold coffee to make you cool.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item" style="padding: 10px;">
+                        <img src="images/refreshment.jpeg" alt="refreshment" class="menu-image" width="200px" height="200px">
+                        <div class="menu-details">
+                            <h3 class="name">refreshment</h3>
+                            <p class="text">fruit and icy refreshing drink to make feel refresh.</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu-list">
+                    <li class="menu-item" style="padding: 10px; margin-right: 100px;">
+                        <img src="images/special combos.jpeg" alt="special combos" class="menu-image" width="200px" height="200px">
+                        <div class="menu-details">
+                            <h3 class="name">special combos</h3>
+                            <p class="text">your favorite eating and drinking combinations.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item" style="padding: 10px;">
+                        <img src="images/dessert.jpeg" alt="dessert" class="menu-image" width="200px" height="200px">
+                        <div class="menu-details">
+                            <h3 class="name">dessert</h3>
+                            <p class="text">satiate your palate and take you on a culinary treat.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item" style="padding: 10px;">
+                        <img src="images/burger-french fries.jpeg" alt="burger & french fries" class="menu-image" width="200px" height="200px">
+                        <div class="menu-details">
+                            <h3 class="name">burger & french fries</h3>
+                            <p class="text">quick bites to satisfy your small size hunger.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- gallery section -->
+        <section class="gallery-section" id="gallery">
+            <h2 class="section-title">gallery</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="images/gallery-1.jpeg" alt="gallery image" class="gallery-image" width="200px" height="200px" style="padding: 5px;">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-2.jpeg" alt="gallery image" class="gallery-image" width="200px" height="200px" style="padding: 5px;">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-3.jpeg" alt="gallery image" class="gallery-image" width="200px" height="200px" style="padding: 5px;">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-4.jpeg" alt="gallery image" class="gallery-image" width="200px" height="200px" style="padding: 5px;">
+                    </li>
+                </ul>
+            </div>
+        </section>
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="your name" class="form-input" required style="margin: 5px;"><br>
+                    <input type="email" placeholder="your email" class="form-input" required style="margin: 5px;"><br>
+                    <textarea placeholder="your message" class="form-input" required style="margin: 5px;"></textarea><br>
+                    <button type="submit" class="button submit-button">submit</button>
+                </form>
+            </div>
+        </section>
+
+                <!-- contact section -->
+                <section class="contact-section" id="contact">
+                    <h2 class="section-title">contact us</h2>
+                    <div class="section-content">
+                        <ul class="contact-info-list">
+                            <li class="contact-info">
+                                <i class="fa-solid fa-location-crosshairs"></i>
+                                <p>123 campsite avenue, wilderness, ca 98765</p>
+                            </li>
+                            <li class="contact-info">
+                                <i class="fa-regular fa-envelope"></i>
+                                <p>[chelsia angelina]</p>
+                            </li>
+                            <li class="contact-info">
+                                <i class="fa-solid fa-phone"></i>
+                                <p>(+628)908765612</p>
+                            </li>
+                            <li class="contact-info">
+                                <i class="fa-regular fa-clock"></i>
+                                <p>monday - friday : 9:00 am - 5:00 pm</p>
+                            </li>
+                            <li class="contact-info">
+                                <i class="fa-regular fa-clock"></i>
+                                <p>saturday : 10:00 am - 3:00 pm</p>
+                            </li>
+                            <li class="contact-info">
+                                <i class="fa-regular fa-clock"></i>
+                                <p>sunday : closed</p>
+                            </li>
+                            <li class="contact-info">
+                                <i class="fa-solid fa-globe"></i>
+                                <p>www.kenangansenja.com</p>
+                            </li>
+                        </ul>        
+
+        <!-- footer section -->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">© 2024 coffee shop</p>
+                <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

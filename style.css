@@ -1,0 +1,115 @@
+body, html
+      header {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        color: inherit;
+        padding: 20px;
+        height: 320px;
+        background-image: url(images/background.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;				(tampilan awal)
+    }
+
+            body {
+            background-color: rgb(255, 255, 255);
+            text-align: left;
+            margin: 20px;
+            padding: 20px;
+        }								(tampilan ke dua)
+
+        h2 {
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          color: #6e2424;
+          text-decoration: overline underline;
+      
+        }
+
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+           .icon-box i.rotate {
+                animation: rotate 2s linear infinite;
+            }
+
+
+            @keyframes rotate {
+                0%{ transform: rotate(0deg); }
+                100% { transform: rotate(360deg);}
+            }
+
+
+
+        background-color:none;
+        }
+
+
+        li {
+            float: left;
+        }
+
+        li a {
+        display: block;
+        color: rgb(145, 81, 18);
+        text-align: left;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        li a:hover:not(.active) {
+        background-color: #debab5;
+        }
+
+        div.best_coffee {
+        margin: 5px;
+        border: 1px solid none;
+        float: left;
+        width: 180px;
+        }
+
+        div.best_coffee:hover {
+        border: 1px solid #777;
+        }
+
+        div.best_coffe.img {
+        width: 100%;
+        height: none;
+        }
+
+        div.nama {
+        padding: 15px;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        a:link, a:visited {
+        background-color: none;
+        color: #6e2424;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        a:hover, a:active {
+        background-color:#fff;
+}
+        .flexdisplay {
+            display: flex;
+        }
+
+        nav {
+            background-color: #ad6666;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 45px;
+            text-decoration: none;
+        }
